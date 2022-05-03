@@ -5,12 +5,20 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InventBoss/SkyblockLounge.git"
+    "url": "git+https://github.com/InventBoss/SkyblockLoungeBot.git"
   },
   "author": "InventBoss",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/InventBoss/SkyblockLounge/issues"
+    "url": "https://github.com/InventBoss/SkyblockLoungeBot/issues"
   },
-  "homepage": "https://github.com/InventBoss/SkyblockLounge#readme"
+  "homepage": "https://github.com/InventBoss/SkyblockLoungeBot#readme",
+  "dependencies": {
+    "node": "^16",
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.27.2",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
 }
